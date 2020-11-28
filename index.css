@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    border: 3px solid rgb(143, 24, 24);
+}
+
+#application-root{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+img {
+    width: 250px;
+    height: auto;
+}
+/* responsive web */
